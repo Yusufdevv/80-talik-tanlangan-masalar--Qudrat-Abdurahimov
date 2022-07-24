@@ -1,2 +1,2 @@
-# 80-talik-tanlangan-masalar--Qudrat-Abdurahimov
+# 80 talik tanlangan masalalar(Qudrat Abdurahimov) - yechimlari
 Qudrat Abdurahimovning maruza matnidagi 80-talik tanlangan masalarning yechimlari
