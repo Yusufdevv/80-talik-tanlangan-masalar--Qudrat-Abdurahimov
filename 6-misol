@@ -1,0 +1,24 @@
+// 6- MISOL. 
+// SAVOL: N natural soni berilgan. Shu songacha bo’lgan tub sonlarni chiqaruvchi programma tuzilsin.
+// Input : 10 || Output: 2, 3, 5, 7
+// Input : 13 || Output: 2, 3, 5, 7, 11, 13
+
+// 24.07.2022
+
+void main() {
+  String? str = stdin.readLineSync();
+  int num = int.parse(str!);
+
+  for (int i = 2; i <= num; i++) {
+    int sum = 0;
+
+    for (int j = 1; j <= i; j++) {
+      if (i % j == 0) {
+        sum++;
+      }
+    }
+    if (sum==2) {
+      print(i);
+    }
+  }
+}
