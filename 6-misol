@@ -1,3 +1,6 @@
+import 'dart:io';
+import 'dart:math';
+
 // 6- MISOL. 
 // SAVOL: N natural soni berilgan. Shu songacha bo’lgan tub sonlarni chiqaruvchi programma tuzilsin.
 // Input : 10 || Output: 2, 3, 5, 7
