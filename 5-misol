@@ -1,7 +1,8 @@
 import 'dart:io';
 import 'dart:math';
 
-// 5. N natural soni berilgan. Shu songacha bo’lgan mukammal sonlarni chiqaruvchi programma tuzilsin.
+// 5- MISOL. 
+// SAVOL: N natural soni berilgan. Shu songacha bo’lgan mukammal sonlarni chiqaruvchi programma tuzilsin.
 // O`zidan boshqa bo’luvchilari yig’indisi o’ziga teng bo’lgan son mukammal son deyiladi. Masalan: 6, 28
 // Input : 100 || Output: 6, 28
 // Input : 10000 || Output: 6, 28, 496, 8128
