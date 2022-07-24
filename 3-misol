@@ -1,0 +1,25 @@
+import 'dart:io';
+import 'dart:math';
+
+// 3-misol
+// Savol: x,y haqiqiy sonlari berilgan. Ularning kichigini sonlar yig’indisining yarmiga,
+// kattasini ko’paytmasining ikkilanganiga almashtiruvchi programma tuzilsin. Agar sonlar teng
+// bo'lsa, o'zgarishsiz qoldirilsin.
+
+// 21.7.2022
+void main() {
+  double x = double.parse(stdin.readLineSync()!);
+  double y = double.parse(stdin.readLineSync()!);
+
+  double z = x + y, d = x * y;
+
+  if (x > y) {
+    x = d * 2;
+    y = z / 2;
+  } else if (x < y) {
+    x = z / 2;
+    y = d * 2;
+  }
+    print('x = ${x.round()} | y= ${y.round()}');
+
+}
